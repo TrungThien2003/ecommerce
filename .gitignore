@@ -1,0 +1,10 @@
+*.exe
+*.o
+.vscode/
+*.log
+node_modules/
+*.tmp
+config.ini
+docs/secret.txt
+temp/*
+*.bak
