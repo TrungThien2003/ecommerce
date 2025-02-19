@@ -16,7 +16,9 @@ const orderSchema = new mongoose.Schema(
             email: {type: String, required: false}
         }, 
         total: {type: Number, required: true}
-    }   
+    }, {
+        timestamps: true
+    }
 )
 
 const Order = mongoose.Model('Order', orderSchema); 

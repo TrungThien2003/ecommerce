@@ -1,5 +1,5 @@
 const mongoose = require('mongoose') 
-const genderSchema = new mongoose.Schema(
+const ageSchema = new mongoose.Schema(
     {
         name: {type: String, required: true}, 
         description: {type: String, required: true}
@@ -9,5 +9,5 @@ const genderSchema = new mongoose.Schema(
     }
 )
 
-const Gender = mongoose.Model('Gender', genderSchema) 
-module.exports = Gender
+const Age = mongoose.Model('Gender', ageSchema) 
+module.exports = Age

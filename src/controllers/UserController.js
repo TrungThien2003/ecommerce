@@ -88,4 +88,4 @@ const refreshToken = async (req, res) => {
         return res.status(200).json(ex)
     }
 }
-module.exports = {createUser, loginUser, deleteUser, updateUser, refreshTokenrefreshToken}
+module.exports = {createUser, loginUser, deleteUser, updateUser, refreshToken}

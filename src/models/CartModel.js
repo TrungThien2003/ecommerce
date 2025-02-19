@@ -10,5 +10,10 @@ const cartSchema = new mongoose.Schema(
                 quantity: {type: String, required: false}
             }
         ]
+    }, {
+        timestamps: true
     }
 )
+
+const Cart = mongoose.model("Cart", cartSchema)
+module.exports = Cart

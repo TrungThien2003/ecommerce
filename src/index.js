@@ -4,9 +4,8 @@ const routes = require('./routes')
 const {mongoose, mongo} = require('mongoose') 
 const bodyParser = require('body-parser')
 const app = express() 
-const User = require('./models/UserModel')
 app.use(bodyParser.json())
-
+app.use(express.json())
 const port = 3003
 routes(app)
 

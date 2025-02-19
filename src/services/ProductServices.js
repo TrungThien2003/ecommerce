@@ -1,6 +1,6 @@
 const Product = require("../models/ProductModel") 
-const createProduct = () => {
-
+const createProduct = (req) => {
+    console.log(req.body)
 }
 
 module.exports = {createProduct}

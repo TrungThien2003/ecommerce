@@ -5,7 +5,7 @@ const genderSchema = new mongoose.Schema(
         description: {type: String, required: false}
     }, 
     {
-        timestamp: true
+        timestamps: true
     }
 ); 
 
